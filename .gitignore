@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Generated data and the warehouse file - regenerate with the pipeline,
+# don't commit personal/large run artifacts
+raw_data/*.csv
+data/*.duckdb
+data/*.duckdb.wal
+
+# dbt
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/
+dbt_project/.user.yml
+
+# Dagster
+orchestration/.dagster_home/
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

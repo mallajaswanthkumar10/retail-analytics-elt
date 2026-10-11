@@ -1,0 +1,10 @@
+retail_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      # Always set explicitly by the caller (run_pipeline.py / orchestration)
+      # to the absolute warehouse path - avoids relative-path ambiguity
+      # depending on where `dbt` is invoked from.
+      path: "{{ env_var('WAREHOUSE_PATH') }}"
+      threads: 4
