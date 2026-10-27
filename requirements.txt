@@ -4,7 +4,7 @@ faker>=40.0
 dbt-core>=1.12
 dbt-duckdb>=1.11
 
-dagster>=1.13
+dagster>=1.13.26
 dagster-webserver>=1.13
 
 streamlit>=1.38
