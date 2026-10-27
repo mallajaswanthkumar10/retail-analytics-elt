@@ -1,5 +1,8 @@
 # Retail Analytics ELT Pipeline
 
+[![CI](https://github.com/mallajaswanthkumar10/retail-analytics-elt/actions/workflows/ci.yml/badge.svg)](https://github.com/mallajaswanthkumar10/retail-analytics-elt/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A batch ELT pipeline for e-commerce data: synthetic orders get loaded into
 a local warehouse, transformed into a proper dimensional model with
 **dbt**, tested automatically, and visualized on a dashboard. Orchestrated
