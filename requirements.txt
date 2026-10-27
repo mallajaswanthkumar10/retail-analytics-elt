@@ -1,7 +1,7 @@
 duckdb>=1.5
 faker>=40.0
 
-dbt-core>=1.12
+dbt-core>=1.12.6
 dbt-duckdb>=1.11
 
 dagster>=1.13
